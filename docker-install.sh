@@ -1,7 +1,7 @@
 #!/bin/bash
-#author : github.com/anggardawjy
+#author : Anggarda Saputra Wijaya. anggarda.wijaya@outlook.com. github.com/anggardawjy
 #version : 0.1
-#about : docker-ce install ubuntu22.04
+#about : docker-ce install
 sudo apt update
 sudo apt install curl -y
 curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo gpg --dearmor -o /usr/share/keyrings/docker-archive-keyring.gpg
@@ -10,7 +10,6 @@ echo "deb [arch=$(dpkg --print-architecture) signed-by=/usr/share/keyrings/docke
 sudo apt update
 sudo apt-cache policy docker-ce
 sudo apt install docker-ce -y
-sudo systemctl status docker
 sudo systemctl restart docker
 echo "Docker Installation Finish"
 done
