@@ -1,8 +1,8 @@
 # Bash Scripting Docker Install
-
+---------------
 Recommended : 
 ---------------
-- Ubuntu 22.04
+- Ubuntu 22.04 LXC Proxmox
 
 Configuration :
 ---------------
