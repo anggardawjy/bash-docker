@@ -12,5 +12,6 @@ sudo dnf repolist -v
 sudo dnf list docker-ce --showduplicates | sort -r
 sudo dnf install -y docker-ce --nobest
 sudo systemctl start docker
-sudo systemctl status docker
 sudo systemctl enable docker
+sudo systemctl status docker
+
