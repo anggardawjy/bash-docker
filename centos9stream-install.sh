@@ -11,5 +11,6 @@ sudo dnf config-manager --add-repo=https://download.docker.com/linux/centos/dock
 sudo dnf repolist -v
 sudo dnf list docker-ce --showduplicates | sort -r
 sudo dnf install -y docker-ce --nobest
-sudo systemctl enable docker
+sudo systemctl start docker
 sudo systemctl status docker
+sudo systemctl enable docker
