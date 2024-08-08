@@ -2,7 +2,7 @@
 #!/bin/bash
 #author : Anggarda Saputra Wijaya. anggarda.wijaya@outlook.com. github.com/anggardawjy
 #version : 0.1
-#about : centos 9 stream docker-ce install
+#about : Support Centos 9 Stream, Rocky Linux 9, Almalinux docker-ce install
 sudo dnf install nano -y
 sudo dnf install curl -y
 sudo dnf update -y
