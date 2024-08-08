@@ -11,5 +11,7 @@ sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/debi
 sudo apt update -y
 apt-cache policy docker-ce
 sudo apt install docker-ce
+sudo systemctl start docker
+sudo systemctl enable docker
 sudo systemctl status docker
 
