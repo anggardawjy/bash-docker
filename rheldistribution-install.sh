@@ -1,4 +1,3 @@
-
 #!/bin/bash
 #author : Anggarda Saputra Wijaya. anggarda.wijaya@outlook.com. github.com/anggardawjy
 #version : 0.1
