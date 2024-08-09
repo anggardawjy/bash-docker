@@ -47,9 +47,6 @@ For Centos 9 Stream / Rocky Linux 9/ Almalinux 9
 Verification :
 ---------------
 ```
-systemctl status docker
-```
-```
 root@ubuntu:~# systemctl status docker
 * docker.service - Docker Application Container Engine
      Loaded: loaded (/lib/systemd/system/docker.service; enabled; vendor preset: enabled)
