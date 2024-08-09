@@ -21,11 +21,12 @@ Git Clone Docker CE From Repository :
 - chmod -R 777 *
 
 Running Auto Install :
-- For Debian
+-----------------
+For Debian
 ```
 ./debian-install.sh
 ```
-- For Ubuntu
+For Ubuntu
 ```
 ./ubuntu-install.sh              
 ```
