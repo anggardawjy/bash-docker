@@ -12,13 +12,21 @@ Recommended :
 Configuration :
 ---------------
 Install Git (Optional) :
-- sudo apt install git -y  (For Debian 10 / Ubuntu 22.04)
-- sudo dnf install git -y  (For Centos 9 Stream / Rocky Linux 9/ Almalinux 9)
+For Centos 9 Stream / Rocky Linux 9/ Almalinux 9
+```
+sudo apt install git -y
+```
+For Centos 9 Stream / Rocky Linux 9/ Almalinux 9
+```
+sudo dnf install git -y 
+```
 
 Git Clone Docker CE From Repository :
-- git clone https://github.com/anggrdwjy/docker-install-lxc
-- cd docker-install-lxc
-- chmod -R 777 *
+```
+git clone https://github.com/anggrdwjy/docker-install-lxc
+cd docker-install-lxc
+chmod -R 777 *
+```
 
 Running Auto Install :
 -----------------
@@ -37,6 +45,7 @@ For Centos 9 Stream / Rocky Linux 9/ Almalinux 9
 
 Verification :
 ---------------
+systemctl status docker
 ```
 root@ubuntu:~# systemctl status docker
 * docker.service - Docker Application Container Engine
