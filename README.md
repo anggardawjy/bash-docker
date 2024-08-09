@@ -25,12 +25,23 @@ sudo dnf install git -y
 Git Clone Docker CE From Repository :
 ```
 git clone https://github.com/anggrdwjy/docker-install-lxc
-```
-```
 cd docker-install-lxc
-```
-```
 chmod -R 777 *
+```
+```
+root@ubuntu:~# ls -l
+total 4
+drwxr-xr-x 3 root root 4096 Aug  9 02:01 docker-install-lxc
+root@ubuntu:~# cd docker-install-lxc/
+root@ubuntu:~/docker-install-lxc# chmod -R 777 *
+root@ubuntu:~/docker-install-lxc# 
+root@ubuntu:~/docker-install-lxc# ls -l
+total 16
+-rwxrwxrwx 1 root root 821 Aug  9 02:01 README.md
+-rwxrwxrwx 1 root root 653 Aug  9 02:01 debian-install.sh
+-rwxrwxrwx 1 root root 614 Aug  9 02:01 rheldistribution-install.sh
+-rwxrwxrwx 1 root root 832 Aug  9 02:01 ubuntu-install.sh
+root@ubuntu:~/docker-install-lxc#
 ```
 
 Running Docker Install :
