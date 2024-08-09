@@ -16,13 +16,16 @@ Install Git (Optional) :
 - sudo dnf install git -y  (For Centos 9 Stream / Rocky Linux 9/ Almalinux 9)
 
 Git Clone Docker CE From Repository :
-- git clone https://github.com/anggardasaputrawijaya/docker-install-lxc
+- git clone https://github.com/anggrdwjy/docker-install-lxc
 - cd docker-install-lxc
 - chmod -R 777 *
 
 Running Auto Install :
-- ./debian-install.sh              (For Debian 10)
-- ./ubuntu-install.sh              (For Ubuntu 22.04)
+For Debian
+```
+./debian-install.sh
+```
+./ubuntu-install.sh              (For Ubuntu 22.04)
 - ./rheldistribution-install.sh    (For Centos 9 Stream / Rocky Linux 9/ Almalinux 9)
 
 Verification :
