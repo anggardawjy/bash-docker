@@ -1,5 +1,5 @@
 # Bash Scripting Docker Install
-Script Automation Install Docker CE for Container LXC Proxmox
+Script Automation Install Docker CE for Linux Container LXC
 
 Recommended LXC : 
 ---------------
@@ -29,7 +29,7 @@ cd docker-install-lxc
 chmod -R 777 *
 ```
 
-Running Auto Install :
+Running Docker Install :
 -----------------
 For Debian
 ```
