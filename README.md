@@ -13,7 +13,7 @@ Configuration :
 ---------------
 Install Git (Optional)
 
-For Centos 9 Stream / Rocky Linux 9/ Almalinux 9
+For Ubuntu 22.04 / Debian 10
 ```
 sudo apt install git -y
 ```
