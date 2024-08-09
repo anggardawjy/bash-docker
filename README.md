@@ -28,6 +28,7 @@ git clone https://github.com/anggrdwjy/docker-install-lxc
 cd docker-install-lxc
 chmod -R 777 *
 ```
+Example on Ubuntu LXC :
 ```
 root@ubuntu:~# ls -l
 total 4
