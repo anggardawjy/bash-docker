@@ -25,7 +25,9 @@ sudo dnf install git -y
 Git Clone Docker CE From Repository :
 ```
 git clone https://github.com/anggrdwjy/docker-install-lxc
+```
 cd docker-install-lxc
+```
 chmod -R 777 *
 ```
 
