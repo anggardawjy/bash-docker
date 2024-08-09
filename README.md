@@ -1,7 +1,7 @@
 # Bash Scripting Docker Install
 Script Automation Install Docker CE for Container LXC Proxmox
 
-Recommended : 
+Recommended LXC : 
 ---------------
 - Ubuntu 22.04
 - Debian 10
@@ -25,11 +25,7 @@ sudo dnf install git -y
 Git Clone Docker CE From Repository :
 ```
 git clone https://github.com/anggrdwjy/docker-install-lxc
-```
-```
 cd docker-install-lxc
-```
-```
 chmod -R 777 *
 ```
 
