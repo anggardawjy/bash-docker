@@ -11,7 +11,8 @@ Recommended :
 
 Configuration :
 ---------------
-Install Git (Optional) :
+Install Git (Optional)
+
 For Centos 9 Stream / Rocky Linux 9/ Almalinux 9
 ```
 sudo apt install git -y
@@ -24,7 +25,11 @@ sudo dnf install git -y
 Git Clone Docker CE From Repository :
 ```
 git clone https://github.com/anggrdwjy/docker-install-lxc
+```
+```
 cd docker-install-lxc
+```
+```
 chmod -R 777 *
 ```
 
