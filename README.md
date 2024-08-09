@@ -21,14 +21,17 @@ Git Clone Docker CE From Repository :
 - chmod -R 777 *
 
 Running Auto Install :
+- For Debian
 ```
 ./debian-install.sh
 ```
+- For Ubuntu
 ```
-./ubuntu-install.sh              (For Ubuntu 22.04)
+./ubuntu-install.sh              
 ```
+For Centos 9 Stream / Rocky Linux 9/ Almalinux 9
 ```
-- ./rheldistribution-install.sh    (For Centos 9 Stream / Rocky Linux 9/ Almalinux 9)
+./rheldistribution-install.sh
 ```
 
 Verification :
