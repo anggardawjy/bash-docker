@@ -1,7 +1,7 @@
 # Bash Scripting Docker Install
 Script Automation Install Docker CE for Linux Container LXC
 
-Recommended LXC : 
+Recommended Linux Container LXC : 
 ---------------
 - Ubuntu 22.04
 - Debian 10
